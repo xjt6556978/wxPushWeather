@@ -149,7 +149,7 @@ def days_until_spring_festival(year=None):
 # 在一起多天计算
 def get_count():
     delta = today - datetime.strptime(start_date, "%Y-%m-%d")
-    return delta.days+1
+    return delta.days
 
 
 # 生日计算

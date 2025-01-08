@@ -158,7 +158,7 @@ def get_birthday():
     if next < datetime.now():
       #next = next.replace(year=next.year + 1)
       next = next.replace(year=next.year + 1)
-    return (next - today).days
+    return (next - today).days+1
 
 
 # 彩虹屁接口
